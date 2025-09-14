@@ -7,8 +7,9 @@
   <title>Dashboard</title>
   <link rel="icon" href="/src/favicon.ico" type="image/x-icon" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <script src="/static/js/load_semester.js"></script>
-  <link rel="stylesheet" href="./style.css" />
+  <script src="/js/load_semester.js"></script>
+  <script src="/js/logout.js"></script>
+  <link rel="stylesheet" href="/style.css" />
 </head>
 
 <body>
@@ -18,12 +19,12 @@
   <nav class="bg-white border-gray-200">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
       <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="/src/images/MyDY-Logo-1.png" class="h-20" alt="Flowbite Logo" />
+        <img src="/src/images/logo.png" class="h-20" alt="Flowbite Logo" />
         <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span> -->
       </a>
       <div class="flex items-center space-x-6 rtl:space-x-reverse">
         <!-- <a href="tel:5541251234" class="text-sm  text-gray-500">(555) 412-1234</a> -->
-        <a href="/static/index.html" class="text-sm  text-red-800">Logout</a>
+        <a href="/index.html" class="text-sm  text-red-800">Logout</a>
       </div>
     </div>
   </nav>
@@ -32,12 +33,12 @@
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 rtl:space-x-reverse text-sm">
           <li>
-            <a style="text-decoration: none;" href="./dashboard.html"
+            <a style="text-decoration: none;" href="/pages/dashboard.html"
               class="px-4 py-3 text-gray-900 text-white hover:underline hover:bg-black no-underline hover:no-underline focus:no-underline active:no-underline"
               aria-current="page">My Classes</a>
           </li>
           <li class="no-underline">
-            <a style="text-decoration: none;" href="./attendence.html"
+            <a style="text-decoration: none;" href="/pages/attendence.html"
               class="px-4 py-3 text-gray-900 text-white hover:underline hover:bg-black no-underline hover:no-underline focus:no-underline active:no-underline">Attendance</a>
           </li>
           <!-- <li>
