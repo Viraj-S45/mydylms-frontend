@@ -6,13 +6,13 @@
 
 ## Preview
 
-<a href="images/fullpage1.png">
+<a href="/src/images/preview_login.png">
   <img src="/src/images/preview_login.png" width="250" alt="Page 1"/>
 </a>
-<a href="images/fullpage2.png">
+<a href="/src/images/preview_dashboard.png">
   <img src="/src/images/preview_dashboard.png" width="250" alt="Page 2"/>
 </a>
-<a href="images/fullpage2.png">
+<a href="/src/images/preview_attendance.png">
   <img src="/src/images/preview_attendance.png" width="250" alt="Page 3"/>
 </a>
 
