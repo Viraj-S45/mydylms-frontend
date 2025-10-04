@@ -4,6 +4,21 @@
 
 ---
 
+## Preview
+
+<a href="images/fullpage1.png">
+  <img src="./src/images/preview_login.png" width="300" alt="Page 1"/>
+</a>
+<a href="images/fullpage2.png">
+  <img src="./src/images/preview_dashboard.png" width="300" alt="Page 2"/>
+</a>
+<a href="images/fullpage2.png">
+  <img src="./src/images/preview_attendance.png" width="300" alt="Page 3"/>
+</a>
+
+
+---
+
 ## Overview
 
 This frontend provides a user interface for:
@@ -53,7 +68,7 @@ It is designed to work **exclusively with the [mydylms-api](https://github.com/v
 
 ## Technical Details
 
-- Frontend communicates exclusively with the [MyDYLMS API](https://github.com/viraj-sh/mydylms-api).
+- Frontend communicates exclusively with the [mydylms-api](https://github.com/viraj-sh/mydylms-api).
 - Default API URL: `http://127.0.0.1:8000`
   - If the API is hosted elsewhere, update the base URL in all JS files.
 - Fully client-side and depends on the local API for data.
@@ -68,26 +83,7 @@ It is designed to work **exclusively with the [mydylms-api](https://github.com/v
 
 ---
 
-## Screenshots / Sample Views
 
-You can include images in a minimal carousel or grid to save space. Example:
-
-
-![Login Page](./src/images/preview_login.png)
-![Dashboard](./src/images/preview_dashboard.png)
-![Attendance](./src/images/preview_attendance.png)
-
-## Gallery
-
-<div align="center">
-  
-![Login Page](./src/images/preview_login.png){: width="200" }
-![Dashboard](./src/images/preview_dashboard.png){: width="200" }
-![Attendance](./src/images/preview_attendance.png){: width="200" }
-
-</div>
-
----
 
 ## Disclaimer
 
