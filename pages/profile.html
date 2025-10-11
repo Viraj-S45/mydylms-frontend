@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attendance</title>
+    <title>Dashboard</title>
     <link rel="icon" href="/src/favicon.ico" type="image/x-icon" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <script src="/js/dashboard.js"></script> -->
     <script src="/js/logout.js"></script>
-    <script src="/js/attendance.js"></script>
+    <script src="/js/user.js"></script>
+    <script src="/js/profile.js"></script>
 
 </head>
 
@@ -50,7 +52,7 @@
                             aria-current="page">My Classes</a>
                     </li>
                     <li class="no-underline">
-                        <a style="text-decoration: none;" href="/pages/attendence.html"
+                        <a style="text-decoration: none;" href="/pages/attendance.html"
                             class="px-4 py-3 text-gray-900 text-white hover:underline hover:bg-black no-underline hover:no-underline focus:no-underline active:no-underline">Attendance</a>
                     </li>
                 </ul>
@@ -60,59 +62,20 @@
     <!-- End of Navbar -->
 
 
-    <section class="bg-gray-50 py-8">
-        <div class="max-w-screen-2xl mx-auto px-4 space-y-6">
+    <section class="max-w-6xl mx-auto p-6 bg-white mt-6 rounded-xl shadow-lg">
+        <h1 class="text-3xl font-bold mb-6 text-center text-red-800">My Profile</h1>
 
-            <!-- Overall Attendance Card -->
-            <div id="overallCard" class="bg-white p-6 rounded-2xl shadow-md text-center">
-                <h2 class="text-2xl font-semibold text-red-900">Overall Attendance</h2>
-                <p class="text-5xl font-bold text-gray-800 mt-2" id="overallValue">--%</p>
-            </div>
-
-            <!-- Detailed Attendance Table -->
-            <div class="bg-white p-6 rounded-2xl shadow-md">
-                <h3 class="text-xl font-semibold text-red-900 mb-4">Detailed Attendance</h3>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left border-collapse rounded-xl">
-                        <thead>
-                            <tr class="bg-red-50 text-gray-700 uppercase text-sm">
-                                <th class="px-4 py-3 rounded-tl-xl">Subject</th>
-                                <th class="px-4 py-3">Total Classes</th>
-                                <th class="px-4 py-3">Present</th>
-                                <th class="px-4 py-3">Absent</th>
-                                <th class="px-4 py-3">Percentage</th>
-                                <th class="px-4 py-3 rounded-tr-xl">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody id="detailedBody">
-                            <tr>
-                                <td colspan="6" class="text-center text-gray-500 py-6 italic">Loading detailed
-                                    attendance...
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
+        <div id="profileContent" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            Loading profile...
         </div>
+
+        <!-- <div class="mt-6 text-center">
+            <button id="profileLogoutBtn"
+                class="px-6 py-2 bg-red-800 text-white rounded-lg font-semibold hover:bg-red-900 transition">
+                Logout
+            </button>
+        </div> -->
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
